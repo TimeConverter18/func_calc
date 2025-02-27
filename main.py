@@ -27,7 +27,7 @@ def main(page:ft.Page):
     func_cards_column = ft.Column(alignment=ft.MainAxisAlignment.CENTER)
 
     page.add(
-        ft.Row([ft.Container(), top_text, add_func_button], alignment=ft.MainAxisAlignment.SPACE_AROUND),
+        ft.Row([ft.Text(), top_text, add_func_button], alignment=ft.MainAxisAlignment.SPACE_AROUND),
         func_cards_column
     )
     page.update()
